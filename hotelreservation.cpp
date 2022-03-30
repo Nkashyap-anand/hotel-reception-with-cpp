@@ -96,10 +96,6 @@ int cost_room(int no_person, string view, string room_type)
 int main()
 {
 
-    int choice;
-
-loop:
-
     // location of hotel
     string h_location;
     cout << "enter hotel location in  shimla , mumbai , kashmir " << endl;
@@ -137,11 +133,7 @@ loop:
     cout << h_roomtype << endl;
     cout << price << endl;
 
-    cout << "would you like to start again ? enter 1 to start again" << endl;
-    cin >> choice;
-
-    if (choice == 1)
-        goto loop;
+   
 
     return 0;
 }
